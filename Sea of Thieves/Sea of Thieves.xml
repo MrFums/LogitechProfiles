@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+  <profile gkeysdk="0" gpasupported="0" lock="0" lastplayeddate="2020-11-13T17:00:50" name="Sea of Thieves" launchable="1" gameid="" guid="{311D95B9-2C01-4B9B-A796-13083C628DA1}">
+    <description></description>
+    <target path="C:\WINDOWS\SYSTEM32\APPLICATIONFRAMEHOST.EXE"/>
+    <signature key="" name="" value="" executable=""/>
+    <macros>
+      <macro original="true" name="Left Click" hidden="false" color="4278246655" guid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="leftclick"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" name="Right Click" hidden="false" color="4278246655" guid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" repeatmode="pressed" name=" " repeatdelay="1000" hidden="false" color="4278246655" guid="{8B13562D-60F2-460F-9588-8C84168C81BC}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="SPACEBAR"/>
+        </keystroke>
+      </macro>
+      <macro original="true" repeatmode="pressed" name=" " repeatdelay="25" hidden="false" color="4278246655" guid="{12C9716B-4D7A-4F6F-AF20-A0369219119A}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="SPACEBAR"/>
+        </keystroke>
+      </macro>
+      <macro original="true" name="Bucket" hidden="false" color="4278246655" guid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="B"/>
+        </keystroke>
+      </macro>
+      <macro original="true" name="Planks" hidden="false" color="4278246655" guid="{E4EB55A1-5CEC-45B6-BD76-F30AA36A2FA1}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="5"/>
+        </keystroke>
+      </macro>
+      <macro original="true" name="Instant Pickup" hidden="false" color="4278246655" guid="{1ACFC420-608E-4FFB-81FA-5D2F1ABB0BBD}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="up" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="down" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="up" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="down" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="up" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="down" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="up" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="down" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="up" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="down" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="up" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="down" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="up" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="down" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="up" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="down" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="up" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="down" value="R"/>
+          <delay milliseconds="2"/>
+          <key direction="up" value="R"/>
+        </multikey>
+      </macro>
+      <macro original="true" repeatmode="toggle" name="Auto Rowboat" repeatdelay="350" hidden="false" color="4278246655" guid="{62B02689-7D3E-45AF-A822-5A1144B9A0F6}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="D"/>
+          <key direction="down" value="A"/>
+          <delay milliseconds="1860"/>
+          <key direction="up" value="D"/>
+          <key direction="up" value="A"/>
+        </multikey>
+      </macro>
+      <macro original="true" repeatmode="pressed" name="Chat Spam (Editable)" repeatdelay="60" hidden="false" color="4278246655" guid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}">
+        <textblock xmlns="http://www.logitech.com/Cassandra/2010.2/Macros/TextBlock">
+          <text playback="normal" delay="33" hasdelay="true">t All shalt boweth to the King of the high seas!
+t All hail the King!
+</text>
+        </textblock>
+      </macro>
+      <macro name="Play/Pause" hidden="false" color="4278246655" guid="{A1FEC5BC-9A8A-49C5-B085-0E2EDCEF1F55}">
+        <media xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Media">
+          <do task="playpause"/>
+        </media>
+      </macro>
+      <macro name="Push to Talk" backupguid="{A1FEC5BC-9A8A-49C5-B085-0E2EDCEF1F55}" hidden="false" color="4278246655" guid="{3C9563F0-7F3D-4E90-B717-71ED64DE0EFD}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="SEMICOLON"/>
+        </keystroke>
+      </macro>
+      <macro name="Next Track" hidden="false" color="4278246655" guid="{505E811B-B109-4FF2-B524-762B4A78B402}">
+        <media xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Media">
+          <do task="nexttrack"/>
+        </media>
+      </macro>
+      <macro name="Previous Track" hidden="false" color="4278246655" guid="{78987FC8-C771-4475-8041-2C539CC2A710}">
+        <media xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Media">
+          <do task="previoustrack"/>
+        </media>
+      </macro>
+      <macro repeatmode="pressed" name="Bunny Hop" repeatdelay="2" backupguid="{DD817AF8-7BE8-46FC-8E12-3A5664597866}" hidden="false" color="4278246655" guid="{61A4FDA6-4FF9-4012-BFE9-133C7D7DBBD6}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LSHIFT"/>
+          <delay milliseconds="10"/>
+          <key direction="up" value="LSHIFT"/>
+          <delay milliseconds="10"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <delay milliseconds="5"/>
+          <key direction="up" value="SPACEBAR"/>
+        </multikey>
+      </macro>
+      <macro repeatmode="pressed" name="Bunny Hop" repeatdelay="2" hidden="false" color="4278246655" guid="{DD817AF8-7BE8-46FC-8E12-3A5664597866}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LSHIFT"/>
+          <delay milliseconds="10"/>
+          <key direction="up" value="LSHIFT"/>
+          <delay milliseconds="10"/>
+          <key direction="down" value="SPACEBAR"/>
+          <key direction="down" value="LSHIFT"/>
+          <key direction="up" value="LSHIFT"/>
+          <delay milliseconds="5"/>
+          <key direction="up" value="SPACEBAR"/>
+        </multikey>
+      </macro>
+      <macro repeatmode="pressed" name="Fast Transport" repeatdelay="25" hidden="false" color="4278246655" guid="{D8FE85E9-3643-4C4B-A0D3-D0F70F07235D}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LSHIFT"/>
+          <delay milliseconds="15"/>
+          <key direction="up" value="LSHIFT"/>
+          <delay milliseconds="15"/>
+          <key direction="down" value="X"/>
+          <delay milliseconds="15"/>
+          <key direction="up" value="X"/>
+          <delay milliseconds="15"/>
+          <key direction="down" value="LSHIFT"/>
+          <delay milliseconds="15"/>
+          <key direction="up" value="LSHIFT"/>
+          <delay milliseconds="15"/>
+          <key direction="down" value="F"/>
+          <delay milliseconds="124"/>
+          <key direction="up" value="F"/>
+          <delay milliseconds="15"/>
+          <key direction="down" value="LSHIFT"/>
+          <delay milliseconds="15"/>
+          <key direction="up" value="LSHIFT"/>
+        </multikey>
+      </macro>
+      <macro name="Auto Lunge" backupguid="{A9AEBA97-83AA-409F-AE59-E593BF20C503}" hidden="false" color="4278246655" guid="{6AD880BD-3D15-47DB-8817-A69DEC54A92F}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <mousebutton button="right" direction="down"/>
+          <delay milliseconds="5"/>
+          <mousebutton button="left" direction="down"/>
+          <delay milliseconds="510"/>
+          <mousebutton button="left" direction="up"/>
+          <mousebutton button="right" direction="up"/>
+          <delay milliseconds="1450"/>
+          <key direction="down" value="SPACEBAR"/>
+          <delay milliseconds="50"/>
+          <key direction="up" value="SPACEBAR"/>
+        </multikey>
+      </macro>
+      <macro name="Auto Heal" backupguid="{33F8DE88-FEAC-42ED-BA8A-3C4755FA6D67}" hidden="false" color="4278246655" guid="{2D33546B-C9CB-48F8-813E-4A2A1857F42D}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <mousebutton button="right" direction="up"/>
+          <delay milliseconds="2"/>
+          <key direction="up" value="W"/>
+          <delay milliseconds="30"/>
+          <key direction="down" value="3"/>
+          <delay milliseconds="50"/>
+          <key direction="up" value="3"/>
+          <delay milliseconds="350"/>
+          <mousebutton button="left" direction="down"/>
+          <delay milliseconds="10"/>
+          <mousebutton button="left" direction="up"/>
+          <delay milliseconds="1800"/>
+          <key direction="down" value="LSHIFT"/>
+          <delay milliseconds="55"/>
+          <key direction="up" value="LSHIFT"/>
+          <delay milliseconds="20"/>
+        </multikey>
+      </macro>
+      <macro name="Fast Eat" hidden="false" color="4278246655" guid="{33F8DE88-FEAC-42ED-BA8A-3C4755FA6D67}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <mousebutton button="right" direction="up"/>
+          <delay milliseconds="2"/>
+          <key direction="up" value="W"/>
+          <delay milliseconds="30"/>
+          <key direction="down" value="3"/>
+          <delay milliseconds="50"/>
+          <key direction="up" value="3"/>
+          <delay milliseconds="350"/>
+          <mousebutton button="left" direction="down"/>
+          <delay milliseconds="10"/>
+          <mousebutton button="left" direction="up"/>
+          <delay milliseconds="1800"/>
+          <mousewheel delta="-1"/>
+          <delay milliseconds="150"/>
+          <key direction="down" value="LSHIFT"/>
+          <delay milliseconds="55"/>
+          <key direction="up" value="LSHIFT"/>
+          <delay milliseconds="20"/>
+        </multikey>
+      </macro>
+      <macro name="Auto Lantern" backupguid="{A81BDD99-8AF5-438C-BFEF-BE14CDFCF858}" hidden="false" color="4278246655" guid="{0A2EEA69-F6D7-40BE-A528-2482DCE9EF6C}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="L"/>
+          <delay milliseconds="10"/>
+          <key direction="up" value="L"/>
+          <delay milliseconds="400"/>
+          <mousewheel delta="-1"/>
+          <delay milliseconds="300"/>
+          <key direction="down" value="LSHIFT"/>
+          <delay milliseconds="50"/>
+          <key direction="up" value="LSHIFT"/>
+        </multikey>
+      </macro>
+      <macro name="EARRAPE" hidden="false" color="4278246655" guid="{45268FB2-00BD-4EE3-B643-70A48F4E267A}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="SEMICOLON"/>
+        </keystroke>
+      </macro>
+      <macro repeatmode="toggle" name="Auto Voyage Buyer [10.98s]" repeatdelay="800" hidden="false" color="4278246655" guid="{E50235A7-88B6-4615-A355-C5A16E2E66FC}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="R"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="R"/>
+          <delay milliseconds="500"/>
+          <key direction="down" value="ENTER"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="ENTER"/>
+          <delay milliseconds="700"/>
+          <key direction="down" value="DOWN"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="DOWN"/>
+          <delay milliseconds="500"/>
+          <key direction="down" value="ENTER"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="ENTER"/>
+          <delay milliseconds="500"/>
+          <key direction="down" value="ENTER"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="ENTER"/>
+          <delay milliseconds="4000"/>
+          <key direction="down" value="ENTER"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="ENTER"/>
+          <delay milliseconds="800"/>
+          <key direction="down" value="ESCAPE"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="ESCAPE"/>
+          <delay milliseconds="500"/>
+          <key direction="down" value="TAB"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="TAB"/>
+          <delay milliseconds="500"/>
+          <key direction="down" value="E"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="E"/>
+          <delay milliseconds="200"/>
+          <key direction="down" value="E"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="E"/>
+          <delay milliseconds="200"/>
+          <key direction="down" value="E"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="E"/>
+          <delay milliseconds="200"/>
+          <key direction="down" value="ENTER"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="ENTER"/>
+          <delay milliseconds="500"/>
+          <key direction="down" value="ENTER"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="ENTER"/>
+          <delay milliseconds="800"/>
+          <key direction="down" value="ESCAPE"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="ESCAPE"/>
+        </multikey>
+      </macro>
+      <macro repeatmode="pressed" name="Fast Interact" repeatdelay="10" hidden="false" color="4278246655" guid="{737A1876-01C0-4A4A-B2F6-B4611942EEE0}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F"/>
+          <delay milliseconds="10"/>
+          <key direction="up" value="F"/>
+        </multikey>
+      </macro>
+      <macro repeatmode="toggle" name="Voyage Milage" repeatdelay="500" hidden="false" color="4278246655" guid="{7AA882E7-D1CF-4BA7-924C-1DD7FD26E505}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="D"/>
+          <delay milliseconds="4500"/>
+          <key direction="up" value="D"/>
+          <delay milliseconds="30000"/>
+          <key direction="down" value="A"/>
+          <delay milliseconds="100"/>
+          <key direction="up" value="A"/>
+          <delay milliseconds="50"/>
+          <key direction="down" value="F"/>
+          <delay milliseconds="15"/>
+          <key direction="up" value="F"/>
+          <delay milliseconds="50"/>
+          <key direction="down" value="F"/>
+          <delay milliseconds="15"/>
+          <key direction="up" value="F"/>
+        </multikey>
+      </macro>
+      <macro repeatmode="toggle" name="Ultimate ANTI AFK" repeatdelay="15000" hidden="false" color="4278246655" guid="{7DE9EA28-C1CB-4892-B387-92468A2EEFD8}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F"/>
+          <delay milliseconds="50"/>
+          <key direction="up" value="F"/>
+          <delay milliseconds="500"/>
+          <key direction="down" value="ESCAPE"/>
+          <delay milliseconds="50"/>
+          <key direction="up" value="ESCAPE"/>
+        </multikey>
+      </macro>
+      <macro name="Double Gun (After Patch)" hidden="false" color="4278246655" guid="{D5AF4B93-982A-428E-AB85-26C48BFEE068}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <mousebutton button="left" direction="down"/>
+          <mousebutton button="left" direction="up"/>
+          <delay milliseconds="50"/>
+          <mousewheel delta="-1"/>
+          <key direction="down" value="W"/>
+          <delay milliseconds="80"/>
+          <mousebutton button="right" direction="up"/>
+          <delay milliseconds="10"/>
+          <key direction="down" value="LSHIFT"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="LSHIFT"/>
+          <key direction="up" value="W"/>
+        </multikey>
+      </macro>
+      <macro name="Num Lock" hidden="false" color="4278246655" guid="{80EFD164-1281-4A25-B805-69400B9E4C4F}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="NUMLOCK"/>
+        </keystroke>
+      </macro>
+      <macro repeatmode="pressed" name="Fast Item Move" repeatdelay="5" hidden="false" color="4278246655" guid="{4A21FFC2-21F9-4C18-8A8A-A6F3D43829EC}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="F"/>
+          <delay milliseconds="1"/>
+          <key direction="up" value="F"/>
+          <key direction="down" value="X"/>
+          <delay milliseconds="1"/>
+          <key direction="up" value="X"/>
+          <key direction="down" value="LSHIFT"/>
+          <delay milliseconds="1"/>
+          <key direction="up" value="LSHIFT"/>
+        </multikey>
+      </macro>
+      <macro name="Fast Eat" hidden="false" color="4278246655" guid="{40B18463-BA58-457C-9297-1D124FBA7FAE}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="W"/>
+          <delay milliseconds="30"/>
+          <key direction="down" value="3"/>
+          <delay milliseconds="50"/>
+          <key direction="up" value="3"/>
+          <delay milliseconds="210"/>
+          <mousebutton button="left" direction="down"/>
+          <delay milliseconds="10"/>
+          <mousebutton button="left" direction="up"/>
+          <delay milliseconds="1800"/>
+          <key direction="down" value="LSHIFT"/>
+          <delay milliseconds="55"/>
+          <key direction="up" value="LSHIFT"/>
+          <delay milliseconds="20"/>
+        </multikey>
+      </macro>
+      <macro name="Instant Lantern" hidden="false" color="4278246655" guid="{A81BDD99-8AF5-438C-BFEF-BE14CDFCF858}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="L"/>
+          <delay milliseconds="10"/>
+          <key direction="up" value="L"/>
+          <delay milliseconds="400"/>
+          <mousewheel delta="-1"/>
+          <delay milliseconds="300"/>
+          <key direction="down" value="LSHIFT"/>
+          <delay milliseconds="50"/>
+          <key direction="up" value="LSHIFT"/>
+        </multikey>
+      </macro>
+      <macro name="Auto Lunge" hidden="false" color="4278246655" guid="{A9AEBA97-83AA-409F-AE59-E593BF20C503}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <mousebutton button="right" direction="down"/>
+          <delay milliseconds="5"/>
+          <mousebutton button="left" direction="down"/>
+          <delay milliseconds="510"/>
+          <mousebutton button="left" direction="up"/>
+          <mousebutton button="right" direction="up"/>
+          <delay milliseconds="1450"/>
+          <key direction="down" value="SPACEBAR"/>
+          <delay milliseconds="50"/>
+          <key direction="up" value="SPACEBAR"/>
+        </multikey>
+      </macro>
+      <macro repeatmode="toggle" name="AntiAFK" repeatdelay="1000" hidden="false" color="4278246655" guid="{7DC6432B-06C7-4A67-8CA5-2142BA3F5D1F}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="W"/>
+          <delay milliseconds="800"/>
+          <key direction="up" value="W"/>
+          <delay milliseconds="1000"/>
+          <key direction="down" value="S"/>
+          <delay milliseconds="800"/>
+          <key direction="up" value="S"/>
+        </multikey>
+      </macro>
+    </macros>
+    <assignments devicecategory="Logitech.Gaming.Mouse.C08B">
+      <assignment backup="false" original="true" shiftstate="1" contextid="Button1" macroguid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}"/>
+      <assignment backup="false" original="true" shiftstate="1" contextid="Button2" macroguid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button3" macroguid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}"/>
+      <assignment backup="false" original="true" shiftstate="4" contextid="Button1" macroguid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}"/>
+      <assignment backup="false" original="true" shiftstate="4" contextid="Button2" macroguid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}"/>
+      <assignment backup="false" original="true" shiftstate="4" contextid="Button3" macroguid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}"/>
+      <assignment backup="false" original="true" shiftstate="4" contextid="Button4" macroguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}"/>
+      <assignment backup="false" original="true" shiftstate="4" contextid="Button5" macroguid="{8B13562D-60F2-460F-9588-8C84168C81BC}"/>
+      <assignment backup="false" original="false" shiftstate="4" contextid="Button6" macroguid="{A1FEC5BC-9A8A-49C5-B085-0E2EDCEF1F55}"/>
+      <assignment backup="false" original="true" shiftstate="4" contextid="Button7" macroguid="{12C9716B-4D7A-4F6F-AF20-A0369219119A}"/>
+      <assignment backup="false" original="true" shiftstate="4" contextid="Button10" macroguid="{1ACFC420-608E-4FFB-81FA-5D2F1ABB0BBD}"/>
+      <assignment backup="false" original="false" shiftstate="4" contextid="Button11" macroguid="{A81BDD99-8AF5-438C-BFEF-BE14CDFCF858}"/>
+      <assignment backup="false" original="false" shiftstate="4" contextid="Button8" macroguid="{33F8DE88-FEAC-42ED-BA8A-3C4755FA6D67}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button5" macroguid="{33F8DE88-FEAC-42ED-BA8A-3C4755FA6D67}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button8" macroguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}"/>
+      <assignment backup="false" original="false" shiftstate="1" contextid="Button4" macroguid="{DD817AF8-7BE8-46FC-8E12-3A5664597866}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button9" macroguid="{A9AEBA97-83AA-409F-AE59-E593BF20C503}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button7" macroguid="{E4EB55A1-5CEC-45B6-BD76-F30AA36A2FA1}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button10" macroguid="{A81BDD99-8AF5-438C-BFEF-BE14CDFCF858}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button11" macroguid="{62B02689-7D3E-45AF-A822-5A1144B9A0F6}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button6" macroguid="{A1FEC5BC-9A8A-49C5-B085-0E2EDCEF1F55}"/>
+      <assignment backup="true" original="false" shiftstate="4" contextid="Button6" macroguid="{A1FEC5BC-9A8A-49C5-B085-0E2EDCEF1F55}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button4" macroguid="{DD817AF8-7BE8-46FC-8E12-3A5664597866}"/>
+      <assignment backup="true" original="false" shiftstate="4" contextid="Button8" macroguid="{33F8DE88-FEAC-42ED-BA8A-3C4755FA6D67}"/>
+      <assignment backup="true" original="false" shiftstate="4" contextid="Button11" macroguid="{A81BDD99-8AF5-438C-BFEF-BE14CDFCF858}"/>
+      <assignment backup="false" original="false" shiftstate="1" contextid="Button7" macroguid="{737A1876-01C0-4A4A-B2F6-B4611942EEE0}"/>
+      <assignment backup="false" original="false" shiftstate="1" contextid="Button6" macroguid="{4A21FFC2-21F9-4C18-8A8A-A6F3D43829EC}"/>
+      <assignment backup="false" original="false" shiftstate="1" contextid="Button9" macroguid="{A9AEBA97-83AA-409F-AE59-E593BF20C503}"/>
+    </assignments>
+    <pointers>
+      <pointer devicemodel="Logitech.Gaming.Mouse.C08B">
+        <mode shiftstate="1">
+          <reportrate rate="1000"/>
+          <powermode value="2"/>
+          <dpitable defaultindex="1" syncxy="1" shiftindex="0">
+            <dpi enabled="1" x="1200" y="1200"/>
+            <dpi enabled="1" x="2400" y="2400"/>
+            <dpi enabled="1" x="3200" y="3200"/>
+            <dpi enabled="1" x="6400" y="6400"/>
+          </dpitable>
+          <movement acceleration="0" speed="-1"/>
+        </mode>
+      </pointer>
+    </pointers>
+    <backlight devicemodel="Logitech.Gaming.Mouse.C08B">
+      <lightingsetting><![CDATA[{"zones":{"1":{"color":"#000000","effectid":3,"intensity":100,"param":0,"rate":20000},"2":{"color":"#000000","effectid":3,"intensity":100,"param":0,"rate":20000}}}]]></lightingsetting>
+    </backlight>
+    <script>EnablePrimaryMouseButtonEvents(true);
+
+local lantern = "L"
+local forward = "W"
+local backward = "S"
+local jump = "SPACEBAR"
+local sprint = "LSHIFT"
+local interact = "F"
+local secondaryinteract = "R"
+local stow = "X"
+local food = "3"
+local cycleweapon = "" --You must do --MoveMouseWheel(-1) in front of this (two --) and remove the two from PressAndReleaseKey(cycleweapon) if you use anything other than scroll up / down to cycle weapons.
+local toggle_doublegun_keylock = "capslock"
+
+function OnEvent(event, arg)
+	--OutputLogMessage("event = %s, arg = %s\n", event, arg) 
+
+	--FUMS DOUBLE GUN
+	if IsKeyLockOn(toggle_doublegun_keylock) and IsMouseButtonPressed(1)then
+		PressAndReleaseKey(toggle_doublegun_keylock)
+		PressMouseButton(1)
+		ReleaseMouseButton(1)
+		Sleep(50)
+		MoveMouseWheel(-1)
+		--PressAndReleaseKey(cycleweapon)
+		PressKey(forward)
+		Sleep(80)
+		ReleaseMouseButton(3)
+		Sleep(20)
+		PressKey(sprint)
+		Sleep(20)
+		ReleaseKey(sprint)
+		ReleaseKey(forward)
+		
+	end
+	
+	--FUMS FAST EAT
+	if (event == "MOUSE_BUTTON_PRESSED" and arg == 5)then
+		ReleaseKey(forward)
+		Sleep(30)
+		PressKey(food)
+		Sleep(50)
+		ReleaseKey(food)
+		Sleep(210)
+		PressMouseButton(1)
+		Sleep(10)
+		ReleaseMouseButton(1)
+		Sleep(1800)
+		PressKey(sprint)
+		Sleep(55)
+		ReleaseKey(sprint)
+		Sleep(20)
+	end
+	
+	--INSTANT LANTERN (Used for FOTD / Shadow skeletons)
+	if (event == "MOUSE_BUTTON_PRESSED" and arg == 8)then
+		PressKey(lantern)
+		Sleep(10)
+		ReleaseKey(lantern)
+		Sleep(400)
+		MoveMouseWheel(-1)
+		--PressAndReleaseKey(cycleweapon)
+		Sleep(300)
+		PressKey(sprint)
+		Sleep(50)
+		ReleaseKey(sprint)
+	end
+	
+end</script>
+  </profile>
+</profiles>

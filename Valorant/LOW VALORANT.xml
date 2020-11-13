@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+  <profile gkeysdk="0" gpasupported="0" lock="0" lastplayeddate="2020-11-13T17:35:15" name="LOW VALORANT" launchable="1" gameid="" guid="{C6789A75-C23D-4483-BA42-238DDC54C0D4}">
+    <description></description>
+    <target path="E:\Games\Riot Games\VALORANT\live\ShooterGame\Binaries\Win64\VALORANT-Win64-Shipping.exe"/>
+    <signature key="" name="" value="" executable=""/>
+    <macros>
+      <macro original="true" name="Left Click" hidden="false" color="4278246655" guid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="leftclick"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" name="Right Click" hidden="false" color="4278246655" guid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" name="Middle Click" hidden="false" color="4278246655" guid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="middleclick"/>
+        </mousefunction>
+      </macro>
+      <macro original="true" repeatmode="pressed" name="Rapid Fire" repeatdelay="48" hidden="false" color="4278246655" guid="{A1FEC5BC-9A8A-49C5-B085-0E2EDCEF1F55}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <mousebutton button="left" direction="down"/>
+          <delay milliseconds="5"/>
+          <mousebutton button="left" direction="up"/>
+        </multikey>
+      </macro>
+      <macro original="true" repeatmode="toggle" name="Play/Pause" repeatdelay="55" hidden="false" color="4278246655" guid="{553B625E-721D-49F1-8622-506867A6081A}">
+        <media xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Media">
+          <do task="playpause"/>
+        </media>
+      </macro>
+      <macro original="true" name="Next Track" hidden="false" color="4278246655" guid="{1DE66976-6CAB-4A48-9E14-869D67DD6A62}">
+        <media xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Media">
+          <do task="nexttrack"/>
+        </media>
+      </macro>
+      <macro original="true" name="Previous Track" hidden="false" color="4278246655" guid="{4BE7EE5C-5441-40C4-92BF-ACBD6C4FE3AB}">
+        <media xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Media">
+          <do task="previoustrack"/>
+        </media>
+      </macro>
+      <macro repeatmode="pressed" name="Classic 4-Shot" repeatdelay="160" backupguid="{9438990C-EEA2-4330-B1E2-DD44A33E163D}" hidden="false" color="4278246655" guid="{E99A0D63-61BF-42A3-901D-8EE9A475DCB5}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <mousebutton button="left" direction="down"/>
+          <delay milliseconds="120"/>
+          <mousebutton button="right" direction="down"/>
+          <delay milliseconds="40"/>
+          <mousebutton button="left" direction="up"/>
+          <delay milliseconds="2"/>
+          <mousebutton button="right" direction="up"/>
+        </multikey>
+      </macro>
+      <macro name="Toggle Script" backupguid="{E677317D-8608-47E2-A742-47A790742A52}" hidden="false" color="4278246655" guid="{D3E76142-ACF5-43B4-B42F-22A1AE487598}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="NUMLOCK"/>
+        </keystroke>
+      </macro>
+      <macro name="Burst Shot (SCRIPT)" backupguid="{3B95886D-8538-41BD-9FC3-38C0B0202B22}" hidden="false" color="4278246655" guid="{159437B7-0B57-454C-803D-299B61866F66}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <delay milliseconds="1"/>
+        </multikey>
+      </macro>
+      <macro repeatmode="pressed" name="Bunny Hop" repeatdelay="65" backupguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}" hidden="false" color="4278246655" guid="{D54AAA41-00AE-40B3-9810-9D3D66C0AFB4}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="SPACEBAR"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="SPACEBAR"/>
+        </multikey>
+      </macro>
+      <macro name="Toggle Recoil Script" backupguid="{68A1C0B2-2996-4992-9CC5-3285AC8E9740}" hidden="false" color="4278246655" guid="{DCBD0718-6137-483C-BE56-06923A2ED123}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="NUMLOCK"/>
+        </keystroke>
+      </macro>
+      <macro name="Knife Killer" backupguid="{12C9716B-4D7A-4F6F-AF20-A0369219119A}" hidden="false" color="4278246655" guid="{B6553BB2-6D7B-4F56-A8A3-CACB943B4D0D}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="3"/>
+          <delay milliseconds="10"/>
+          <key direction="up" value="3"/>
+          <delay milliseconds="25"/>
+          <mousebutton button="left" direction="down"/>
+          <delay milliseconds="900"/>
+          <mousebutton button="left" direction="up"/>
+          <delay milliseconds="85"/>
+          <mousebutton button="right" direction="down"/>
+          <delay milliseconds="10"/>
+          <mousebutton button="right" direction="up"/>
+        </multikey>
+      </macro>
+      <macro repeatmode="pressed" name="Bunny Hop" repeatdelay="65" hidden="false" color="4278246655" guid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="SPACEBAR"/>
+          <delay milliseconds="20"/>
+          <key direction="up" value="SPACEBAR"/>
+        </multikey>
+      </macro>
+      <macro name="Cancel Reload" backupguid="{8B13562D-60F2-460F-9588-8C84168C81BC}" hidden="false" color="4278246655" guid="{58E0B802-9C47-4ADD-9D29-676821001347}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="3"/>
+          <delay milliseconds="5"/>
+          <key direction="up" value="3"/>
+          <delay milliseconds="49"/>
+          <key direction="down" value="1"/>
+          <delay milliseconds="5"/>
+          <key direction="up" value="1"/>
+        </multikey>
+      </macro>
+      <macro name="Cancel Reload" hidden="false" color="4278246655" guid="{8B13562D-60F2-460F-9588-8C84168C81BC}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="3"/>
+          <delay milliseconds="5"/>
+          <key direction="up" value="3"/>
+          <delay milliseconds="49"/>
+          <key direction="down" value="2"/>
+          <delay milliseconds="5"/>
+          <key direction="up" value="2"/>
+          <delay milliseconds="5"/>
+          <key direction="down" value="1"/>
+          <delay milliseconds="5"/>
+          <key direction="up" value="1"/>
+        </multikey>
+      </macro>
+      <macro name="Swap Knife" hidden="false" color="4278246655" guid="{B42B0824-40CC-4981-9F3C-0524B1B2FE17}">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="1"/>
+          <delay milliseconds="5"/>
+          <key direction="up" value="1"/>
+          <delay milliseconds="5"/>
+          <key direction="down" value="2"/>
+          <delay milliseconds="5"/>
+          <key direction="up" value="2"/>
+          <delay milliseconds="49"/>
+          <key direction="down" value="3"/>
+          <delay milliseconds="5"/>
+          <key direction="up" value="3"/>
+        </multikey>
+      </macro>
+      <macro name="Recoil Mode (Reserved)" hidden="false" color="4278246655" guid="{A2E114BF-9CF6-4981-A8AF-DAB34BF153F2}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="EQUAL"/>
+        </keystroke>
+      </macro>
+    </macros>
+    <assignments devicecategory="Logitech.Gaming.Mouse.C08B">
+      <assignment backup="false" original="true" shiftstate="1" contextid="Button1" macroguid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}"/>
+      <assignment backup="false" original="true" shiftstate="1" contextid="Button2" macroguid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}"/>
+      <assignment backup="false" original="true" shiftstate="1" contextid="Button3" macroguid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button10" macroguid="{4BE7EE5C-5441-40C4-92BF-ACBD6C4FE3AB}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button11" macroguid="{1DE66976-6CAB-4A48-9E14-869D67DD6A62}"/>
+      <assignment backup="false" original="true" shiftstate="4" contextid="Button1" macroguid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}"/>
+      <assignment backup="false" original="true" shiftstate="4" contextid="Button2" macroguid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}"/>
+      <assignment backup="false" original="true" shiftstate="4" contextid="Button3" macroguid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}"/>
+      <assignment backup="false" original="false" shiftstate="4" contextid="Button4" macroguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}"/>
+      <assignment backup="false" original="false" shiftstate="4" contextid="Button5" macroguid="{8B13562D-60F2-460F-9588-8C84168C81BC}"/>
+      <assignment backup="false" original="true" shiftstate="4" contextid="Button6" macroguid="{A1FEC5BC-9A8A-49C5-B085-0E2EDCEF1F55}"/>
+      <assignment backup="true" original="false" shiftstate="4" contextid="Button7" macroguid="{12C9716B-4D7A-4F6F-AF20-A0369219119A}"/>
+      <assignment backup="true" original="false" shiftstate="4" contextid="Button8" macroguid="{68A1C0B2-2996-4992-9CC5-3285AC8E9740}"/>
+      <assignment backup="false" original="true" shiftstate="4" contextid="Button10" macroguid="{4BE7EE5C-5441-40C4-92BF-ACBD6C4FE3AB}"/>
+      <assignment backup="false" original="true" shiftstate="4" contextid="Button11" macroguid="{1DE66976-6CAB-4A48-9E14-869D67DD6A62}"/>
+      <assignment backup="false" original="false" shiftstate="1" contextid="Button4" macroguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button9" macroguid="{553B625E-721D-49F1-8622-506867A6081A}"/>
+      <assignment backup="false" original="false" shiftstate="1" contextid="Button8" macroguid="{8B13562D-60F2-460F-9588-8C84168C81BC}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button7" macroguid="{9438990C-EEA2-4330-B1E2-DD44A33E163D}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button6" macroguid="{E677317D-8608-47E2-A742-47A790742A52}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button5" macroguid="{3B95886D-8538-41BD-9FC3-38C0B0202B22}"/>
+      <assignment backup="false" original="false" shiftstate="1" contextid="Button6" macroguid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}"/>
+      <assignment backup="true" original="false" shiftstate="4" contextid="Button4" macroguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button4" macroguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}"/>
+      <assignment backup="false" original="false" shiftstate="1" contextid="Button7" macroguid="{B42B0824-40CC-4981-9F3C-0524B1B2FE17}"/>
+      <assignment backup="false" original="false" shiftstate="1" contextid="Button9" macroguid="{553B625E-721D-49F1-8622-506867A6081A}"/>
+      <assignment backup="false" original="false" shiftstate="1" contextid="Button5" macroguid="{A2E114BF-9CF6-4981-A8AF-DAB34BF153F2}"/>
+      <assignment backup="true" original="false" shiftstate="4" contextid="Button5" macroguid="{8B13562D-60F2-460F-9588-8C84168C81BC}"/>
+      <assignment backup="true" original="false" shiftstate="1" contextid="Button8" macroguid="{8B13562D-60F2-460F-9588-8C84168C81BC}"/>
+    </assignments>
+    <pointers>
+      <pointer devicemodel="Logitech.Gaming.Mouse.C08B">
+        <mode shiftstate="1">
+          <reportrate rate="1000"/>
+          <powermode value="2"/>
+          <dpitable defaultindex="1" syncxy="1" shiftindex="0">
+            <dpi enabled="1" x="1200" y="1200"/>
+            <dpi enabled="1" x="2400" y="2400"/>
+            <dpi enabled="1" x="3200" y="3200"/>
+            <dpi enabled="1" x="6400" y="6400"/>
+          </dpitable>
+          <movement acceleration="0" speed="-1"/>
+        </mode>
+      </pointer>
+    </pointers>
+    <backlight devicemodel="Logitech.Gaming.Mouse.C08B">
+      <lightingsetting><![CDATA[{"zones":{"1":{"color":"#ff0000","effectid":1,"intensity":0,"param":0,"rate":8000},"2":{"color":"#ff0000","effectid":1,"intensity":0,"param":0,"rate":8000}}}]]></lightingsetting>
+    </backlight>
+    <script>--LOW RECOIL SCRIPT
+
+-- Fums#0888 
+-- https://github.com/MrFums
+-- @MrFums
+
+local keylock = "capslock" -- change to capslock, numlock or scrolllock
+
+function OnEvent(event, arg)
+EnablePrimaryMouseButtonEvents(true);
+
+
+-- PERFECT RAPID FIRE
+if IsMouseButtonPressed(2) then
+OutputLogMessage("Toggled on perfect rapid fire\n")
+repeat
+PressAndReleaseMouseButton(1)
+Sleep(math.random(290,320))
+until not IsMouseButtonPressed(2)
+end
+-- END OF PERFECT RAPID FIRE
+
+-- SCRIPT
+if (IsKeyLockOn(keylock) == true) then 
+	if IsMouseButtonPressed(1) then
+		repeat
+			Sleep(math.random(90,105)) if not IsMouseButtonPressed(1) then break end
+			MoveMouseRelative(math.random(-1,1),math.random(20,22))
+
+			Sleep(math.random(90,105)) if not IsMouseButtonPressed(1) then break end
+			MoveMouseRelative(math.random(-1,1),math.random(20,22))
+
+			Sleep(math.random(90,105)) if not IsMouseButtonPressed(1) then break end
+			MoveMouseRelative(math.random(-1,1),math.random(20,22))
+
+			Sleep(math.random(90,105)) if not IsMouseButtonPressed(1) then break end
+			MoveMouseRelative(math.random(-1,1),math.random(20,22))
+
+			Sleep(math.random(90,105)) if not IsMouseButtonPressed(1) then break end
+			MoveMouseRelative(math.random(-1,1),math.random(20,22))
+
+			Sleep(math.random(90,105)) if not IsMouseButtonPressed(1) then break end
+			MoveMouseRelative(math.random(-1,1),math.random(20,22))
+
+			Sleep(math.random(90,105)) if not IsMouseButtonPressed(1) then break end
+			MoveMouseRelative(math.random(-1,1),math.random(5,7))
+
+			Sleep(math.random(90,105)) if not IsMouseButtonPressed(1) then break end
+			MoveMouseRelative(math.random(-1,1),math.random(5,7))
+
+			Sleep(math.random(90,105)) if not IsMouseButtonPressed(1) then break end
+			MoveMouseRelative(math.random(-1,1),math.random(3,5))
+		
+
+		until IsMouseButtonPressed(1)
+	end
+end
+
+-- END OF SCRIPT
+end</script>
+  </profile>
+</profiles>
