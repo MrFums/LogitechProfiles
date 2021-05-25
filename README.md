@@ -1,3 +1,3 @@
 # Logitech Profiles
 
-This set of profiles are private and developed by Fums. You cannot publicly post these.
+I dont use logitech anymore so go ahead and use these
